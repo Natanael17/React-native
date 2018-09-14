@@ -4,7 +4,7 @@ import {Text} from 'react-native';
  class A extends Component{
 	render(){
 		return(
-			<Text style={yaya.x}>BIODATA</Text>
+			<Text style={yaya.x}>{this.props.wkwk}</Text>
 
 			)
 	}

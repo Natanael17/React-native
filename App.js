@@ -22,14 +22,16 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-      <A/>
+      <A wkwk="Biodata"/>
+      <A wkwk="Login"/>
+      <A wkwk="Form"/>
       <Image style={{width: 300, height: 300}}
         source={require('./foto.jpg')} />
         <Text> </Text>
         <Text style={styles.kiri}></Text>
-        <Text style={styles.kiri}>Nama : Natanael Yehuda Chrysda Hermawan</Text>
-        <Text style={styles.kiri}>No.Abs : 30</Text>
-        <Text style={styles.kiri}>Kelas : XI RPL 2</Text>
+        <Text style={styles.kiri}>Nama : Rivo Oktisa Sukmana</Text>
+        <Text style={styles.kiri}>No.Abs : 31</Text>
+        <Text style={styles.kiri}>Kelas : XI RPL 1</Text>
         <Text> </Text>
         <Text style={styles.a}>Double tap R on your keyboard to reload</Text>
         <Text style={styles.a}>Shake or press menu button for dev menu</Text>
